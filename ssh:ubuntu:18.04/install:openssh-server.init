@@ -1,0 +1,2 @@
+#Install Open-ssh server
+sudo apt-get install -y openssh-server 
