@@ -1,0 +1,8 @@
+mkdir -p ~/.vim/autoload
+mkdir -p ~/.vim/bundle
+cp ./pathogen.vim ~/.vim/autoload/pathogen.vim
+
+echo "call pathogen#infect()" >> ~/.vimrc
+echo "call pathogen#helptags()" >> ~/.vimrc
+
+
